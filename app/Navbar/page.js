@@ -11,16 +11,16 @@ export default function Navbar() {
 
                 <ul className="flex justify-around items-center gap-10 text-2xl">
                     <li className="">
-                        <Link href={""} className="">About</Link>
+                        <Link href={"#About"} className="">About</Link>
                     </li>
                      <li className="">
-                        <Link href={""} className="">Experince</Link>
+                        <Link href={"#Experience"} className="">Experince</Link>
                     </li>
                      <li className="">
-                        <Link href={""} className="">Project</Link>
+                        <Link href={"#Project"} className="">Project</Link>
                     </li>
                      <li className="">
-                        <Link href={""} className="">Contact</Link>
+                        <Link href={"#Contact"} className="">Contact</Link>
                     </li>
                 </ul>
             </nav>

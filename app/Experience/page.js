@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import Github from '../Github/page'
 
 export default function Experience() {
   return (
     <>
-        <section className="h-screen">
+        <section className="h-screen" id='Experience'>
             <div className="flex flex-col justify-center items-center gap-4">
                 <h3 className="font-normal text-gray-600">Explore My</h3>
                 <h1 className="text-5xl text-center font-bold ">Experience</h1>
@@ -67,10 +68,17 @@ export default function Experience() {
                 </div>
                 <div className="">
                     <p className="">
-                        Dev Alpha is an Android development startup founded by Abhijeet Mali and Sai Chigare under the Sanjay Ghodawat University College Incubation Program. The company was launched with the aim of building innovative and user-centric Android applications that solve real-world problems. Dev Alpha specializes in creating clean, responsive, and scalable mobile apps using technologies like Kotlin, Java, XML, and Firebase. Backed by the university's support and resources, the startup has rapidly grown by delivering functional and visually polished apps for various domains. From conceptualization to deployment on the Google Play Store, Dev Alpha handles the complete app development lifecycle, ensuring quality, performance, and a great user experience. It stands as a shining example of student-led innovation and entrepreneurship nurtured within an academic environment.
+                        Experience at Dev Alpha – Sanjay Ghodawat University Incubation At Dev Alpha, a startup incubated under Sanjay Ghodawat University, Sai Chigari and I founded and led a team focused on delivering high-quality Android applications. Together, we built several impactful projects and successfully delivered custom mobile apps to real-world clients, gaining valuable experience in product development and client communication.
                     </p>
+
+                    <div className="">
+                        <h1 className="text-xl font-bold pt-4">Achivment</h1>
+                        <p className="pt-2">🏆 Our team won the <strong>Best Frontend Award at the GDG On Campus SGU Hackathon</strong>  – Prabal, a 40-hour non-stop event where we built a <strong>Carbon Emission Tracking App</strong> with real-time maps, visualizations, and eco-challenges using Kotlin, Jetpack Compose, and Firebase. An unforgettable first hackathon experience!</p>
+                    </div>
                 </div>
             </div>
+
+           
         </section>
     </>
   )

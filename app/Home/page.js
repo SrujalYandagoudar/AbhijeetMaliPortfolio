@@ -6,10 +6,10 @@ export default function Home() {
   return (
    <>
         <section className="h-[75vh]">
-            <div className="flex justify-center items-center gap-16 mt-22 ">
+            <div className="flex max-md:flex-col justify-center items-center gap-16 mt-22 ">
                 <div className="relative ">
                     <Image src='/Images/Abhijeet.jpg' width={400} height={400} className='rounded-full object-cover scale-x-[-1]' alt=''/>
-                    {/* <img src="/Images/Abhijeet.jpg" alt="" className="w-80 h-72 rounded-full" /> */}
+                   
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4">
                     <h3 className="font-bold text-gray-600 text-xl">Hello, I'm</h3>

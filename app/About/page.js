@@ -4,7 +4,7 @@ import React from 'react'
 export default function About() {
   return (
     <>
-        <section className="h-screen py-10">
+        <section className="h-screen py-10" id='About'>
             <div className="flex flex-col justify-center items-center gap-4">
                 <h3 className="font-normal text-gray-600">Get To Know More</h3>
                 <h1 className="text-5xl text-center font-bold ">About Me</h1>
