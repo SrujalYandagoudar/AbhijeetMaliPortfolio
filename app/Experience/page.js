@@ -72,7 +72,7 @@ export default function Experience() {
                     </p>
 
                     <div className="">
-                        <h1 className="text-xl font-bold pt-4">Achivment</h1>
+                        <h1 className="text-xl font-bold pt-4">Achivement</h1>
                         <p className="pt-2">🏆 Our team won the <strong>Best Frontend Award at the GDG On Campus SGU Hackathon</strong>  – Prabal, a 40-hour non-stop event where we built a <strong>Carbon Emission Tracking App</strong> with real-time maps, visualizations, and eco-challenges using Kotlin, Jetpack Compose, and Firebase. An unforgettable first hackathon experience!</p>
                     </div>
                 </div>
