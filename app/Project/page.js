@@ -38,7 +38,7 @@ export default function Project() {
                     <h1 className="text-5xl text-center font-bold ">Project</h1>
                 </div>
 
-                <div className="grid grid-cols-3 items-center mx-32 my-20 gap-10">
+                <div className="grid md:grid-cols-3 items-center md:mx-32 mx-10 my-20 gap-10">
                     
                         {project.map((project) => (
                             <div key={project.id} className="border-2 border-black rounded-3xl flex flex-col justify-center items-center py-6 gap-4">

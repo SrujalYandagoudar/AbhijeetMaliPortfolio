@@ -8,7 +8,7 @@ export default function Footer() {
             <footer id='Project'>
                 <div className="flex flex-col pb-6 gap-6 ">
                     <div className="">
-                        <ul className="flex justify-center items-center gap-10 text-2xl">
+                        <ul className="flex justify-center items-center md:gap-10 gap-6 font-bold md:text-2xl">
                             <li className="">
                                 <Link href={""} className="">About</Link>
                             </li>

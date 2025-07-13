@@ -5,62 +5,62 @@ import Github from '../Github/page'
 export default function Experience() {
   return (
     <>
-        <section className="h-screen" id='Experience'>
+        <section className="md:h-screen" id='Experience'>
             <div className="flex flex-col justify-center items-center gap-4">
                 <h3 className="font-normal text-gray-600">Explore My</h3>
                 <h1 className="text-5xl text-center font-bold ">Experience</h1>
             </div>
 
-            <div className="grid grid-cols-2 items-center mx-32 my-20 gap-10">
-                <div className="border-2 border-gray-600 rounded-3xl px-12 py-4">
+            <div className="grid md:grid-cols-2 items-center md:mx-32 mx-6 my-20 gap-10">
+                <div className="border-2 border-gray-600 rounded-3xl md:px-12 px-6 py-4">
                     <h1 className="font-bold text-3xl text-gray-600 py-2 pb-6 text-center">Android Development</h1>
 
-                      <div className="grid grid-cols-2 gap-y-6 justify-self-center-safe gap-20">
-                            <div className="flex items-start gap-6 ">
+                      <div className="grid grid-cols-2 gap-y-6 md:justify-self-center-safe md:gap-20">
+                            <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Kotline</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Kotline</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 
-                             <div className="flex items-start gap-6 ">
+                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Jetpack</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Jetpack</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 
-                             <div className="flex items-start gap-6 ">
+                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Firebase</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Firebase</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 
-                             <div className="flex items-start gap-6 ">
+                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Room DB</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Room DB</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 
-                             <div className="flex items-start gap-6 ">
+                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Android Studio</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Android Studio</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 
-                            <div className="flex items-start gap-6 ">
+                            <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold text-2xl">Depandance Injection</h1>
-                                    <h3 className="text-gray-600 font-semibold">Expierniced</h3>
+                                    <h1 className="font-bold md:text-2xl">Depandance Injection</h1>
+                                    <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
 

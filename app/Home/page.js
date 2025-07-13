@@ -5,9 +5,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
    <>
-        <section className="h-[75vh]">
-            <div className="flex max-md:flex-col justify-center items-center gap-16 mt-22 ">
-                <div className="relative ">
+        <section className="md:h-[75vh]">
+            <div className="flex max-md:flex-col justify-center items-center gap-16 md:mt-22 max-md:my-10 ">
+                <div className="relative max-md:px-10">
                     <Image src='/Images/Abhijeet.jpg' width={400} height={400} className='rounded-full object-cover scale-x-[-1]' alt=''/>
                    
                 </div>
@@ -35,3 +35,8 @@ export default function Home() {
    </>
   )
 }
+
+export const metadata = {
+  title: "Abhijeet Mali Portfolio",
+  description: "Portfolio of Abhijeet Mali – Android Developer and founder of Dev Alpha, building modern mobile apps using Kotlin, Jetpack Compose, and Firebase. Incubated at Sanjay Ghodawat University.",
+};
