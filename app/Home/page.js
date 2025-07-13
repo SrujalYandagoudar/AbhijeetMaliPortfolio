@@ -17,8 +17,8 @@ export default function Home() {
                     <h2 className="text-gray-600 text-3xl font-semibold">Android Developer</h2>
 
                     <div className="grid grid-cols-2 gap-4">
-                        <button className="p-4 rounded-full border border-black font-semibold">Download CV</button>
-                        <button className="p-4 rounded-full text-white bg-gray-700 font-semibold">Contact Info</button>
+                        <button className="p-4 rounded-full border border-black font-semibold"><a href="/AbhijeetMaliResume.pdf" download className="">Download CV</a></button>
+                        <button className="p-4 rounded-full text-white bg-gray-700 font-semibold"><Link href={"#Contact"}>Contact Info</Link></button>
                     </div>
 
                     <div className="flex justify-center items-center gap-4">
