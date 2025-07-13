@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abhijeet-mali-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://abhijeet-mali-portfolio.vercel.app/sitemap.xml
