@@ -16,7 +16,12 @@ export const metadata = {
   title: "Abhijeet Mali Experience",
   description:
     "Portfolio of Abhijeet Mali – Android Developer and founder of Dev Alpha, building modern mobile apps using Kotlin, Jetpack Compose, and Firebase. Incubated at Sanjay Ghodawat University.",
-  keywords: [
+   icons: {
+    icon: '/Images/Abhijeet.jpg', // or '/favicon.png'
+    shortcut: '/Images/Abhijeet.jpg',
+    apple: '/apple-touch-icon.png',
+  },
+    keywords: [
     "Abhijeet Mali",
     "Abhi Mali",
     "Abhijeetmali",
@@ -64,6 +69,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/Images/Abhijeet.jpg" type="image/x-icon" />
+        <meta name="google-site-verification" content="_OCqeHNT2m0HkPtZdR85CfoOTG1qRd3EA3VZu9YxCXs" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
