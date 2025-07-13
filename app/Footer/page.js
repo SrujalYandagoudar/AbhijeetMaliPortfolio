@@ -32,3 +32,53 @@ export default function Footer() {
         </>
     )
 }
+
+export const metadata = {
+  title: "Abhijeet Mali Experience",
+  description:
+    "Portfolio of Abhijeet Mali – Android Developer and founder of Dev Alpha, building modern mobile apps using Kotlin, Jetpack Compose, and Firebase. Incubated at Sanjay Ghodawat University.",
+  keywords: [
+    "Abhijeet Mali",
+    "Abhi Mali",
+    "Abhijeetmali",
+    "Mali Abhijeet",
+    "Abhijeet Mali Skills",
+    "Abhijeet Mali Project",
+    "Android Developer",
+    "Kotlin",
+    "Jetpack Compose",
+    "Firebase",
+    "Dev Alpha",
+    "SGU",
+    "Mobile App Portfolio",
+    "Srujal Yandagoudar",
+    "Abhijeet Mali Github"
+  ],
+  authors: [{ name: "Abhijeet Mali" }],
+  creator: "Abhijeet Mali",
+  openGraph: {
+    title: "Abhijeet Mali Portfolio",
+    description:
+      "Android Developer and founder of Dev Alpha, building innovative mobile apps using Kotlin, Jetpack Compose, and Firebase.",
+    url: "https://abhijeetmali.dev", // replace with your domain
+    siteName: "Abhijeet Mali Portfolio",
+    images: [
+      {
+        url: "/Images.Abhijeet.jpg", // Path to your Open Graph image
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+};

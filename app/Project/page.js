@@ -32,7 +32,7 @@ export default function Project() {
     ]
     return (
         <>
-            <section className="h-full" id='Project'>
+            <main className="h-full" id='Project'>
                 <div className="flex flex-col justify-center items-center gap-4">
                     <h3 className="font-normal text-gray-600">Browse My Recent</h3>
                     <h1 className="text-5xl text-center font-bold ">Project</h1>
@@ -58,7 +58,56 @@ export default function Project() {
                 </div>
 
                 <Github/>
-            </section>
+            </main>
         </>
     )
 }
+
+export const metadata = {
+  title: "Abhijeet Mali Experience",
+  description:
+    "Portfolio of Abhijeet Mali – Android Developer and founder of Dev Alpha, building modern mobile apps using Kotlin, Jetpack Compose, and Firebase. Incubated at Sanjay Ghodawat University.",
+  keywords: [
+    "Abhijeet Mali",
+    "Attendace App",
+    "Bluetooth Attendance App",
+    "My Stack",
+    "Abhijeet Mali Skills",
+    "Abhijeet Mali Project",
+    "Android Developer",
+    "Kotlin",
+    "Jetpack Compose",
+    "Firebase",
+    "Dev Alpha",
+    "SGU",
+    "Mobile App Portfolio",
+    "Srujal Yandagoudar"
+  ],
+  authors: [{ name: "Abhijeet Mali" }],
+  creator: "Abhijeet Mali",
+  openGraph: {
+    title: "Abhijeet Mali Portfolio",
+    description:
+      "Android Developer and founder of Dev Alpha, building innovative mobile apps using Kotlin, Jetpack Compose, and Firebase.",
+    url: "https://abhijeetmali.dev", // replace with your domain
+    siteName: "Abhijeet Mali Portfolio",
+    images: [
+      {
+        url: "/Images.Abhijeet.jpg", // Path to your Open Graph image
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+};
