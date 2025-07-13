@@ -12,7 +12,7 @@ export default function Home() {
                    
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4">
-                    <h3 className="font-bold text-gray-600 text-xl">Hello, I'm</h3>
+                    <h3 className="font-bold text-gray-600 text-xl">Hello, I&apos;m</h3>
                     <h1 className="text-5xl font-bold ">Abhijeet Mali</h1>
                     <h2 className="text-gray-600 text-3xl font-semibold">Android Developer</h2>
 
