@@ -26,7 +26,7 @@ export default function About() {
                                     <Image src="/Images/Eduction.png" width={30} height={30} alt="Abhijeet Eduction" className="grayscale-100" />
                                     <h2 className="font-bold text-2xl">Eduction</h2>
                                     <p className="">B-Tech CSE </p>
-                                    <p className="">Snajay Ghodawat Unversity</p>
+                                    <p className="">Sanjay Ghodawat University </p>
                                 </div>
                             </div>
 
