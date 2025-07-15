@@ -19,7 +19,7 @@ export default function Experience() {
                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Kotline</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Kotline</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ export default function Experience() {
                              <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Jetpack</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Jetpack</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ export default function Experience() {
                              <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Firebase</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Firebase</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ export default function Experience() {
                              <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Room DB</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Room DB</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ export default function Experience() {
                              <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Android Studio</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Android Studio</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function Experience() {
                             <div className="flex items-start md:gap-6 gap-2 ">
                                 <Image src="/Images/Verified.png" width={30} height={30} alt="Skills" className="" />
                                 <div className="flex flex-col">
-                                    <h1 className="font-bold md:text-2xl">Depandance Injection</h1>
+                                    <h1 className="font-bold lg:text-2xl ">Depandance Injection</h1>
                                     <h3 className="text-gray-600 max-md:text-xs font-semibold">Expierniced</h3>
                                 </div>
                             </div>
